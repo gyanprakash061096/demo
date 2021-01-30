@@ -1,0 +1,356 @@
+
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  background: radial-gradient(#eb3349, #f45c43);
+  
+  
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+h1, h3{
+  text-shadow:  2px 2px 5px rgb(255, 253, 253);
+}
+
+
+
+
+.carousel-item{
+  height: 20vh;
+  min-height: 300px;
+  background: no-repeat scroll center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.carousel-item::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000;
+  opacity: 0.7;
+
+}
+.carousel-caption{
+  bottom: 180px;
+}
+/* Sections */
+
+.favicon{
+  border-radius: 100%;
+}
+/* Contact Icons */
+.icons{
+  width: 40px;
+  height: 40px;
+  transition: 0.5s;
+  box-shadow: 0px 0px 10px 2px rgb(0, 0, 0);
+  border-radius: 100%;
+}
+.icons:hover{
+  transform: scale(1.6);
+}
+.modal-body #emailicon img{
+  padding-left: 30px;
+}
+.col-lg-6 .emailtext{
+  padding-top: 10%;
+}
+
+/* Navigation Bar */
+
+.navbar-brand{  
+  font-family: 'Merienda One', cursive;
+  font-size: large;  
+  padding-left: 20px; 
+  margin: auto; 
+}
+
+
+/* Featured Products */
+/* .categories{
+  margin: 10px 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.categories .col-3{
+  flex-basis: 30%;
+    min-width: 250px;
+  margin-bottom: 30px;
+  transition: transform 0.5s;
+  text-align: center;
+}
+.categories .col-3:hover{
+  transform: translateY(-10px);
+}
+.categories .col-3 img{
+  width: 100%;
+}
+.small-container{
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+} */
+
+.container .row{
+  margin: auto;
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+}
+.container .row .col-6 img{
+width: 100%;
+text-align: center;
+transition: transform 0.5s;
+
+}
+.container .row .col-6{
+margin-top: 60px;
+padding: 20px;
+}
+.container .row .col-6 img:hover{
+  
+  transform: translateY(-10px);
+  box-shadow: 0px 0px 10px 2px rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* testimonial */
+
+
+.test{
+  padding-top: 10px;
+  align-content: center; 
+  align-items: center;
+  text-align: center;
+}
+.test .small .col-3{
+  text-align: center;  
+  margin: 10px;   
+  background: linear-gradient(#ffffff,#ffffff);
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.5s;
+  
+  
+}
+.test .small img{
+  padding: 2px;
+  
+  border-radius: 100%;
+  width: 100%;  
+}
+.test .small .col-3:hover{
+
+transform: translateY(-6px)
+
+
+}
+#min{
+  font-size: 34px;
+  color: #f58634;
+}
+
+
+
+
+
+/* Intro */
+
+.box2{
+  width: 97%; 
+  margin: 10px auto;
+  box-shadow: 0px 0px 10px 2px #000;  
+  background-size: cover;
+  text-align: center;
+}
+.box2 .row{
+  margin: auto;
+} 
+.left{
+  padding: 70px 0;
+}
+.center{
+  padding-top: 2%;
+}
+.right{
+
+ padding-top: 2%;
+}
+
+
+
+/*featured*/
+
+
+#pricing{
+  padding: 50px;
+  
+}
+#button{
+  margin: 9px auto 2px auto;
+}
+.image1{
+  width: 25%;  
+  }
+
+  .fheading{
+    padding-top: 50px;
+    margin-bottom: 0%;
+    padding-bottom: 2px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    text-shadow:  2px 2px 5px rgb(255, 253, 253);
+  }
+
+
+
+
+
+/*about us*/
+
+.box{
+  width: 95%;
+  height: 95%px;
+  padding-top: 50px;
+  margin: 20px auto;
+  box-shadow: 0px 0px 10px 2px rgb(0, 0, 0);
+  background-image: url("photo-1444362408440-274ecb6fc730.jpg");
+  background-size: cover;
+  text-align: center;
+}
+/*client review*/
+
+#colored{  
+  margin-top: 10;
+  background: linear-gradient(#eb3349, rgb(255, 255, 255));
+}
+
+/* Quote Box */
+
+.ftext{
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Great Vibes', cursive;
+  font-size: 30px;
+  padding-top: 10px;
+}
+.helen{
+text-decoration: #ffff;
+
+}
+
+
+/* gallery */
+.gallery{
+  margin: 10px 50px;
+}
+.gallery img{
+  transition: 1s;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  width: 100%;
+  
+  
+}
+.gallery img:hover{
+  filter: grayscale(0%);
+  transform: scale(1.05);
+  border: 1px solid rgb(255, 255, 255);
+}
+#happyheading{
+  color:#ffff;
+}
+
+/* new footer */
+.submission{
+  margin: 2px;
+  padding: 5px;
+}
+.submission .row #brandimg img{
+  width: 53%;
+  height: 80%;
+  margin-top: 50px;
+  transition: 1s;
+  transition-delay: 0.1s;
+  box-shadow: 0px 0px 10px 5px rgb(0, 0, 0);
+  transform: rotateZ(5deg);
+  
+}
+.submission .row #brandimg img:hover{
+  transform: rotateZ(0);
+}
+.submission .row #brandimage{
+  padding-right: 50px;
+  justify-content: center;
+  padding-top: 10%;
+}
+.submission .row{
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.submission .row .icons{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  box-shadow: 0px 0px 10px 2px rgb(0, 0, 0);
+  transition: 0.5s;
+}
+.submission .row .icons:hover{
+  transform: scale(1.6);
+}
+
+
+
+
+
+/* Footer */
+#footer{
+  background-color: #000;
+  
+}
+#footer .social-icon{
+  color: antiquewhite;  
+}
+
+/* Modal */
+#staticBackdrop{
+  background-color: #000;
+  opacity: 85%;
+  background: fixed;
+  padding-top: 10%;
+  
+  
+}
